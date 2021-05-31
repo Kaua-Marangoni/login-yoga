@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+}
+
+.all-elements {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+input {
+    width: 321px;
+    height: 46px;
+    padding-left: 10px;
+    background: #F7F7F7;
+    box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+input:focus {
+    border: 2px solid #414042;
+}
+
+button {
+    margin: 30px auto 0 auto;
+    background: #323232;
+    box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    width: 133px;
+    height: 46px;
+    border: none;
+    transition: 100ms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #464545;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+}
+
+span {
+    margin-left: 3px;
+}
+
+input[name="idade"] {
+    width: 70px;
+    display: inline;
+}
+
+input[name="telefone"] {
+    width: 130px;
+    display: inline;
+}
+
+@media (max-width: 495px) {
+    .all-elements {
+        margin-top: 80px;
+    }
+
+    img {
+        width: 40px;
+    }
+}
