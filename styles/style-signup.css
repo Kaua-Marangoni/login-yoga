@@ -41,7 +41,6 @@ input:focus {
 }
 
 button {
-    margin: 30px auto 0 auto;
     background: #323232;
     box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
     border-radius: 10px;
@@ -61,7 +60,16 @@ button:hover {
     background: #464545;
 }
 
+.button-submit {
+    margin-right: 10px;
+}
+
+.button-reset {
+    margin-left: 10px;
+}
+
 .buttons {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }

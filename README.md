@@ -2,18 +2,18 @@
 
 <img src="./assets/image-example.png" alt="imagem de exemplo">
 
-> Resultado do projeto Yoga, com tela de login e registro.
+> Result of the Yoga project, with login and registration screen.
 
-### Ajustes e melhorias
+### Adjustments and improvements
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+The project is still under development and future updates will focus on the following tasks:
 
-- [x] Criação do HTML
-- [x] Criação do CSS
-- [ ] Criação do JavaScript
-- [ ] Criação de mais telas
+- [x] HTML creation
+- [x] CSS creation
+- [ ] JavaScript creation
+- [ ] Creating more screens
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 🤝 Colaborators
 
 <table>
   <tr>
