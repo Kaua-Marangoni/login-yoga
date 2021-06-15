@@ -87,9 +87,17 @@ input[name="idade"] {
     display: inline;
 }
 
+.label-age {
+    width: 70px;
+}
+
 input[name="telefone"] {
     width: 130px;
     display: inline;
+}
+
+.label-tel {
+    width: 130px;
 }
 
 @media (max-width: 495px) {
