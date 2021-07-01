@@ -15,7 +15,23 @@
 </head>
 
 <body>
-    <div>
+    <div class="container">
+
+        <div class="container-poup-up">
+            <div class="div-poup-up">
+
+                <img class="button-x" src="./assets/button-x.png" alt="Imagem de erro">
+
+                <span class="close-poup-up">&times;</span>
+
+                <p class="unregistered-user">Usuário não registrado</p>
+
+                <p class="paragraph-register">Você precisa se registrar antes de fazer login</p>
+                
+                <a href="./src/signup.html"><button>Registrar-se</button></a>
+            </div>
+        </div>
+
         <img src="./assets/symbol-yoga.svg" class="img-yoga" alt="Símbolo yoga">
 
         <input type="email" name="peronal-email" placeholder="E-mail">
@@ -26,20 +42,22 @@
             <a href="#" class="forgot-password">Esqueci a senha</a>
         </div>
 
-        <button type="button">Login</button>
+        <button class="button-login" onclick="openPoupUp()" type="button">Login</button>
 
         <span class="link-signup">Não tem uma conta? <a href="./src/signup.html"><strong>Registre-se</strong></a>
             agora.</span>
 
         <p>Ou</p>
 
-        <div class="container">
+        <div class="alternative-login-links">
             <a href="#"><img src="./assets/google.svg" alt="google"></a>
             <a href="#" class="img-link"><img src="./assets/dots.svg" alt="dots"></a>
             <a href="#"><img src="./assets/face.svg" alt="facebook"></a>
         </div>
 
     </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
