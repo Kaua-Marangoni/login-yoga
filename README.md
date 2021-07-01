@@ -1,6 +1,7 @@
 # Yoga Interface
 
-<img src="./assets/image-example.png" alt="imagem de exemplo" width="580px;">
+<img src="./assets/example-yoga.jpg" alt="imagem de exemplo"
+width="500px">
 
 > Result of the Yoga project, with login and registration screen.
 
@@ -10,8 +11,10 @@ The project is still under development and future updates will focus on the foll
 
 - [x] HTML creation
 - [x] CSS creation
-- [ ] JavaScript creation
-- [ ] Creating more screens
+- [x] Responsive layout
+- [X] JavaScript creation
+- [X] Creating more screens
+- [ ] Form sending data
 
 ## 🤝 Colaborators
 
