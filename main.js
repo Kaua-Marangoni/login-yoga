@@ -5,6 +5,7 @@ const divPoupUp = document.querySelector(".div-poup-up")
 
 openPoupUp.onclick = () => {
     divContainer.style.display = "flex"
+    divContainer.style.position = "fixed"
     divPoupUp.style.display = "inline"
 }
 
