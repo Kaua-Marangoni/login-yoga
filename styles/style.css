@@ -196,3 +196,9 @@ p {
         margin: 35px 0 38px 210px;
     }
 }
+
+@media (max-height: 660px) {
+    .alternative-login-links {
+        margin-bottom: 35px;
+    }
+}
